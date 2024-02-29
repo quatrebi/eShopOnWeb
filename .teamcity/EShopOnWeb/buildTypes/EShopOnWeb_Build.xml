@@ -8,15 +8,6 @@
     </disabled-settings>
     <parameters />
     <build-runners>
-      <runner id="jb_nuget_installer" name="" type="jb.nuget.installer">
-        <parameters>
-          <param name="nuget.path" value="%teamcity.tool.NuGet.CommandLine.DEFAULT%" />
-          <param name="nuget.updatePackages.mode" value="sln" />
-          <param name="nuget.use.restore" value="restore" />
-          <param name="sln.path" value="eShopOnWeb.sln" />
-          <param name="teamcity.step.mode" value="default" />
-        </parameters>
-      </runner>
       <runner id="dotnet_4" name="" type="dotnet">
         <parameters>
           <param name="command" value="build" />
